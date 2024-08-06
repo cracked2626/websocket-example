@@ -4,7 +4,7 @@ function handleWebSocketConnection(ws) {
     // Send a random number between 10 and 100 every second
     const interval = setInterval(() => {
         const randomNumber = Math.floor(Math.random() * 91) + 10;
-        ws.send(JSON.stringify({ number: randomNumber }));
+        ws.send(JSON.stringify({ price: randomNumber }));
     }, 1000);
 
     ws.on('close', () => {
