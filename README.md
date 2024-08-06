@@ -7,10 +7,6 @@ This is a simple Node.js project that implements a WebSocket server. The server 
 - Node.js (v18 or higher recommended)
 - npm (Node Package Manager)
 
-## Getting Started
-
-Follow these steps to run the server
-
-### 1. Clone the Repository
+## Run server
 
 Type node index.js or npm start
